@@ -1,0 +1,112 @@
+snippet => "Arrow function"
+(${1}) => {
+	${2}
+}
+endsnippet
+
+snippet =>> "Inline arrow function" 
+${1} => ${2}
+endsnippet
+
+snippet class
+class ${1:name} {
+	${2}
+}
+endsnippet
+
+snippet constructor
+constructor(${1}) {
+	${2}
+}
+endsnippet
+
+snippet getset
+get ${1}() {
+	return ${2}
+}
+set ${1}(val) {
+	this.${2} = ${1}
+}
+endsnippet
+
+snippet static
+static get ${1}()  { 
+	${2}
+}
+endsnippet
+
+snippet require 
+const ${1} = require('${2}');
+endsnippet
+
+snippet describe
+describe('${1}', () => {
+	${2}
+});
+endsnippet
+
+snippet describea
+describe('${1}', done => {
+	${2}
+});
+endsnippet
+
+snippet before
+before('${1}', () => {
+	${2}
+});
+endsnippet
+
+snippet beforea
+before('${1}', done => {
+	${2}
+});
+endsnippet
+
+snippet beforeEach
+beforeEach('${1}', () => {
+	${2}
+});
+endsnippet
+
+snippet beforeEacha
+beforeEach('${1}', done => {
+	${2}
+});
+endsnippet
+
+snippet after
+after('${1}', () => {
+	${2}
+});
+endsnippet
+
+snippet aftera
+after('${1}', done => {
+	${2}
+});
+endsnippet
+
+snippet afterEach
+afterEach('${1}', () => {
+	${2}
+});
+endsnippet
+
+snippet afterEacha
+afterEach('${1}', done => {
+	${2}
+});
+endsnippet
+
+snippet it
+it('${1}', () => {
+	${2}
+});
+endsnippet
+
+snippet ita
+it('${1}', done => {
+	${2}
+});
+endsnippet
